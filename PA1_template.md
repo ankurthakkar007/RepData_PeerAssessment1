@@ -117,7 +117,7 @@ qplot(total_steps, data=total_steps_df, geom="histogram", xlab = "Total steps pe
 impMean <- mean(total_steps_df$total_steps)
 impMedian <- median(total_steps_df$total_steps)
 ```
-New mean after impputing missing values is : **10766.1886792453**.  
+New mean after imputing missing values is : **10766.1886792453**.  
 New Median after imputing missing values is : **10766.1886792453**.
 
 After imputing missing values mean and median are same. Data is evenly distributed. In first part median was slightly different since missing values were not considered. After inserting missing values with average of 5-min interval, median value is increased and is now equal to mean value. Mean value is same as that of part 1. This proves that after imputing missing values, impact is only on median since values have increased and mean remains unchanged.

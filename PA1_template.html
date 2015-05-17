@@ -146,7 +146,7 @@ qplot(total_steps, data=total_steps_df, geom=&quot;histogram&quot;, xlab = &quot
 <pre class="r"><code>#calculation of mean and median of the total number of steps taken per day.
 impMean &lt;- mean(total_steps_df$total_steps)
 impMedian &lt;- median(total_steps_df$total_steps)</code></pre>
-<p>New mean after impputing missing values is : <strong>10766.1886792453</strong>.<br />New Median after imputing missing values is : <strong>10766.1886792453</strong>.</p>
+<p>New mean after imputing missing values is : <strong>10766.1886792453</strong>.<br />New Median after imputing missing values is : <strong>10766.1886792453</strong>.</p>
 <p>After imputing missing values mean and median are same. Data is evenly distributed. In first part median was slightly different since missing values were not considered. After inserting missing values with average of 5-min interval, median value is increased and is now equal to mean value. Mean value is same as that of part 1. This proves that after imputing missing values, impact is only on median since values have increased and mean remains unchanged.</p>
 </div>
 <div id="are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="section level2">
